@@ -1,0 +1,16 @@
+.container{
+    background-color: #f2ebe6;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    
+    border-radius:10px ;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    color: #231b17;
+    
+}

@@ -1,0 +1,15 @@
+.addButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.menuForm{
+    margin-bottom: 1rem;
+    background-color: #231b17;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}

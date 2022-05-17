@@ -1,0 +1,15 @@
+.container p {
+    color: rgb(230, 133, 65);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.container h1{
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+.container{
+    max-width:35rem ;
+}
+

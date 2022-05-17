@@ -1,0 +1,39 @@
+.loginButton {
+    padding: .5rem 1rem;
+    background-color: #231b17;
+    border-style: solid;
+    border-color:rgb(230, 133, 65) ;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.loginButton:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 3px rgb(230, 133, 65) ;
+}
+.loginButton:active{
+    transform: scale(.98);
+    box-shadow: 1px 1px 1px rgb(230, 133, 65) ;
+}
+
+.loginIcon{
+    color: white;
+    height: 2rem;
+    /* background-color: #231b17; */
+}
+
+.login{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: .9rem;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    padding: .2rem .6rem;
+    align-items: center;
+    /* background-color: #231b17; */
+} 

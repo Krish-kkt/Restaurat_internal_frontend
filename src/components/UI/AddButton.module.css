@@ -1,0 +1,10 @@
+button.addButton{
+    background-color: #231b17;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+}

@@ -1,0 +1,38 @@
+.header{
+    background-image: url('../img/home_coffee2_header4.jpg');
+    height: 12rem;
+    background-position: center;
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.editableSection{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.menuList{
+    width: 60vw;
+    
+    margin-bottom: 5vh;
+}
+.categoryList{
+    position: sticky;
+    top: 11vh;
+    width: 25vw;
+    max-height: 84vh;
+    overflow: auto;
+    margin-bottom: 5vh;
+    padding: 0 2vw;
+}
+
+
+
+

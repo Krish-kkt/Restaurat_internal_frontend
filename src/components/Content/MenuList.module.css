@@ -1,0 +1,16 @@
+.categoryName{
+    color: #E68541;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.underline{
+    width: 30px;
+    height: 3px;
+    background-color: #E68541;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-bottom: 40px;
+}

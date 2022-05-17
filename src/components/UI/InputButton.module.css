@@ -1,0 +1,59 @@
+.title{
+    color: rgb(230, 133, 65);
+    margin: 0;
+    margin-bottom: .5rem;
+    font-weight: 900;
+}
+.inputDiv input{
+    height: 3rem;
+    width: 17rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border-style: none;
+    padding: 2%;
+    padding-left: 5%;
+    color: #231b17;
+}
+.inputDiv input:focus{
+    background-color: #F0ECE3;
+    border-style: none;
+    outline: none;
+    border-style: solid;
+    border-width: .18rem;
+    border-color: #231b17;
+}
+.activeInput{
+    background-color: #F0ECE3;
+    border-style: none;
+    outline: none;
+    border-style: solid;
+    border-width: .18rem;
+    border-color: #231b17;
+}
+.inputDiv{
+    position: relative;
+}
+.requiredMsg{
+    position: absolute;
+    top: 103%;
+    color: #ED1B24;
+    font-weight: 500;
+    transform: scale(0);
+}
+.errorIcon{
+    position: absolute;
+    left: 102%;
+    top: 50%;
+    width: 1.5rem;
+    /* transform: translateY(-50%); */
+    transform: scale(0);
+}
+
+.activeRequiredMsg{
+    transform: scale(1);
+}
+
+.activeErrorIcon{
+    transform: translateY(-50%) scale(1);
+}
+

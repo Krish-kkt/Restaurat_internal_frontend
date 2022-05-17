@@ -1,0 +1,33 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(248,244,241, .5);
+    /* opacity: .5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    z-index: 15;
+}
+
+.spinner{
+    /* content: ""; */
+    /* background-color: #231b17; */
+    width: 7vw;
+    height: 7vw;
+    border: 1vw solid transparent;
+    border-top-color: #231b17;
+    border-bottom-color: #231b17;
+    border-radius: 50%;
+    animation: loading 1s ease infinite; 
+}
+
+@keyframes loading {
+    to{
+        transform: rotate(1turn);
+    }
+}
+

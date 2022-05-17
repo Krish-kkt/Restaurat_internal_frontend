@@ -1,0 +1,73 @@
+.menuForm{
+    color: #e68541;
+    font-size: 1.1rem;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+.formFields{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleField, .descriptionField, .priceField, .categoryField{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.menuForm .titleInput,.priceInput,.descriptionInput,.categoryInput{
+    font-size: 1.1rem;
+    padding: .5rem .5vw;
+    margin-left: .7vw;
+    border-radius: 5px;
+    border: none;
+    color: #231b17;
+}
+
+.descriptionInput{
+    width: 20vw;
+    font-size: .8rem;
+}
+
+.menuForm input:focus,.menuForm textarea:focus,.menuForm select:focus{
+    background-color: #F0ECE3;
+    border-style: none;
+    outline: none;
+    border-style: solid;
+    border-width: .18rem;
+    border-color: #e68541;
+}
+
+.priceInput{
+    width: 5vw;
+}
+
+.titleInput{
+    width: 19vw;
+}
+
+.categoryInput{
+    min-width: 10vw;
+}
+
+.row3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row3 button{
+    background-color: white;
+    color: #231b17;
+    border: none;
+    margin-left: 1vw;
+    font-size: 1.2rem;
+    padding: .3rem .6vw;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

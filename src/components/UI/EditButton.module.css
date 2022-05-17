@@ -1,0 +1,31 @@
+.container{
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    width: 1.5rem;
+    
+    
+}
+.container button{
+    padding: 0;
+    background-color: inherit;
+    border:none;
+    cursor: pointer;
+}
+
+.seperator{
+    width: 2px;
+    height:20px;
+    background-color: #E68541;
+    background-blend-mode: exclusion;
+}
+
+.editButton{
+    margin-right: 15px;
+}
+.deleteButton{
+    margin-left: 15px;
+}

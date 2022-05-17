@@ -1,0 +1,13 @@
+.categoryForm{
+    margin-bottom: 1rem;
+    background-color: #231b17;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.addButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+}
